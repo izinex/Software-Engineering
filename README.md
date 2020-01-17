@@ -1,2 +1,1 @@
-# Software-Engineering
-CSCI370 - Software Engineering
+# 370Fall19pshetu

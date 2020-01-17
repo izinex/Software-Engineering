@@ -7,7 +7,7 @@
     tools:context=".MainActivity">
 
     <EditText
-        android:id="@+id/total25val"
+        android:id="@+id/twentyfivePercentTotalValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="42dp"
@@ -15,10 +15,10 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/tip25val" />
+        app:layout_constraintTop_toBottomOf="@+id/twentyfivePercentTipValue" />
 
     <EditText
-        android:id="@+id/total20val"
+        android:id="@+id/twentyPercentTotalValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="42dp"
@@ -26,10 +26,10 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/total25"
-        app:layout_constraintTop_toBottomOf="@+id/tip20val" />
+        app:layout_constraintTop_toBottomOf="@+id/twentyPercentTipValue" />
 
     <EditText
-        android:id="@+id/total15val"
+        android:id="@+id/fifteenPercentTotalValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="42dp"
@@ -37,7 +37,7 @@
         android:ems="10"
         android:inputType="numberDecimal"
         app:layout_constraintEnd_toStartOf="@+id/total20"
-        app:layout_constraintTop_toBottomOf="@+id/tip15val" />
+        app:layout_constraintTop_toBottomOf="@+id/fifteenPercentTipValue" />
 
     <TextView
         android:id="@+id/total20"
@@ -46,7 +46,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="10dp"
         android:text="Total: 20%"
-        app:layout_constraintEnd_toStartOf="@+id/total20val"
+        app:layout_constraintEnd_toStartOf="@+id/twentyPercentTotalValue"
         app:layout_constraintTop_toBottomOf="@+id/tip20" />
 
     <TextView
@@ -56,7 +56,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
         android:text="Tip:    20%"
-        app:layout_constraintEnd_toStartOf="@+id/tip20val"
+        app:layout_constraintEnd_toStartOf="@+id/twentyPercentTipValue"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <TextView
@@ -66,11 +66,11 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
         android:text="Tip:    15%"
-        app:layout_constraintEnd_toStartOf="@+id/tip25val"
+        app:layout_constraintEnd_toStartOf="@+id/twentyfivePercentTipValue"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/tip25val"
+        android:id="@+id/twentyfivePercentTipValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
@@ -81,7 +81,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <EditText
-        android:id="@+id/tip20val"
+        android:id="@+id/twentyPercentTipValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"
@@ -118,7 +118,7 @@
         app:layout_constraintTop_toBottomOf="@+id/checkAmount" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/buttonCompute"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
@@ -138,7 +138,7 @@
         android:layout_marginTop="40dp"
         android:layout_marginEnd="10dp"
         android:text="Tip:    15%"
-        app:layout_constraintEnd_toStartOf="@+id/tip15val"
+        app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTipValue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
@@ -150,7 +150,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="10dp"
         android:text="Total:  15%"
-        app:layout_constraintEnd_toStartOf="@+id/total15val"
+        app:layout_constraintEnd_toStartOf="@+id/fifteenPercentTotalValue"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/tip15" />
 
@@ -161,7 +161,7 @@
         android:layout_marginTop="70dp"
         android:layout_marginEnd="10dp"
         android:text="Total: 25%"
-        app:layout_constraintEnd_toStartOf="@+id/total25val"
+        app:layout_constraintEnd_toStartOf="@+id/twentyfivePercentTotalValue"
         app:layout_constraintTop_toBottomOf="@+id/tip25" />
 
     <TextView
@@ -207,7 +207,7 @@
         app:layout_constraintTop_toBottomOf="@+id/checkAmountValue" />
 
     <EditText
-        android:id="@+id/tip15val"
+        android:id="@+id/fifteenPercentTipValue"
         android:layout_width="50dp"
         android:layout_height="45dp"
         android:layout_marginTop="20dp"

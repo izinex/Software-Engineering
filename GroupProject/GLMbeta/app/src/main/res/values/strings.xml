@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Remind Me</string>
+    <string name="clicked">Clicked</string>
+    <string name="lifeHack">RecyclerView shows Reminders of List: </string>
+    <string name="checked">\u2611</string>
+    <string name="unckecked">\u2610</string>
+</resources>

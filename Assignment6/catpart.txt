@@ -1,0 +1,37 @@
+# File
+File:
+  Empty.                            [single][property empty]
+  Not empty.                        [property ok]
+  File not found.                   [error]
+
+#OPT
+Options:
+  -b.                               [property backUp]
+  -f.                               [property replaceFirstFromFile]
+  -l.                               [property replaceLastFromFile]
+  -i.                               [property searchInsensitive]
+
+# Parameters
+Parameter from:
+  0length.                          [single][property emptyString]		
+  5length.			     [property short]
+  50length.                          [property long]
+  10length.			     [property medium]			
+
+Parameter to:
+  0length.			    
+  5length.
+  50length.
+  10length.
+  # Find matches
+  Number of matches of the pattern in second file:
+    empty.                              [if !empty][property noMatch]
+    one.                                [if !empty && short]
+    many.                               [if !empty && long]
+    some. 				[if !empty && medium]
+  # Replace
+  Replace Value:
+    Replace backUp.                [if !empty && backUp]
+    Replace replaceFrom.                [if !empty && replaceFirstFromFile]
+    Replace replaceTo.                  [if !empty && replaceLastFromFile]
+    Replace sensitiveCase.              [if !empty && searchInsensitive]

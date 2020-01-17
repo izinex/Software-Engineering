@@ -20,14 +20,14 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
         getCheckAmount = findViewById(R.id.checkAmountValue);
         getPartySize = findViewById(R.id.partySizeValue);
-        tip15value = findViewById(R.id.tip15val);
-        tip20value = findViewById(R.id.tip20val);
-        tip25value = findViewById(R.id.tip25val);
-        total15value = findViewById(R.id.total15val);
-        total20value = findViewById(R.id.total20val);
-        total25value = findViewById(R.id.total25val);
+        tip15value = findViewById(R.id.fifteenPercentTipValue);
+        tip20value = findViewById(R.id.twentyPercentTipValue);
+        tip25value = findViewById(R.id.twentyfivePercentTipValue);
+        total15value = findViewById(R.id.fifteenPercentTotalValue);
+        total20value = findViewById(R.id.twentyPercentTotalValue);
+        total25value = findViewById(R.id.twentyfivePercentTotalValue);
 
-        ComputerTip = findViewById(R.id.button);
+        ComputerTip = findViewById(R.id.buttonCompute);
         ComputerTip.setOnClickListener(this);
 
 
